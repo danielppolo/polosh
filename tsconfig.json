@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "strict": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx", "pages/index.tsx"
+  ],
+  "baseUrl": ".",
+  "paths": {
+    "components": ["components"],
+    "common": ["components/common"],
+    "hooks": ["hooks"],
+    "hoc": ["hoc"],
+    "utils": ["utils"],
+    "action-creators": ["action-creators"],
+    "actions": ["actions"],
+    "services": ["services"],
+    "reducers": ["reducers"],
+    "sagas": ["sagas"],
+    "store": ["store/store.js"],
+    "images": ["static/images"],
+    "i18n": ["i18n.js"],
+    "locales": ["static/locales"],
+    "test": ["__test__"],
+    "constants": ["utils/constants"],
+    "data": ["utils/data"],
+  }
+}

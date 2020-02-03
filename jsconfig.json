@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "components": ["components"],
+      "common": ["components/common"],
+      "hooks": ["hooks"],
+      "hoc": ["hoc"],
+      "utils": ["utils"],
+      "action-creators": ["action-creators"],
+      "actions": ["actions"],
+      "services": ["services"],
+      "reducers": ["reducers"],
+      "sagas": ["sagas"],
+      "store": ["store/store.js"],
+      "images": ["static/images"],
+      "i18n": ["i18n.js"],
+      "locales": ["static/locales"],
+      "test": ["__test__"],
+      "constants": ["utils/constants"],
+      "data": ["utils/data"],
+    }
+  }
+}
