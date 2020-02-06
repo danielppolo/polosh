@@ -17,6 +17,7 @@ const plugins = [
       alias: aliases,
     },
   ],
+  ["@babel/plugin-proposal-optional-chaining"]
 ]
 module.exports = {
   presets: ['next/babel'],
