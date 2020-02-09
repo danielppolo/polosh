@@ -22,13 +22,25 @@
 ### Sitemap
 
 * Bio
+* Contact
 * Sandbox
 * Showroom [projects]
 * Medium-like posts
+* Timeline [history]
+* CMS
+* Archive
+* Slides
+* Home
+* 
 
 
 
 ### User stories
 
-* A user 
+###### I can...
 
+* 
+
+###### A user can...
+
+* 

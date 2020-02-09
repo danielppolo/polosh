@@ -1,7 +1,7 @@
 import { NextPage } from 'next'
 import React from 'react'
 import LayoutCenter from '../components/layouts/center'
-import Typed from '../components/common/typed'
+import Typed from '../components/ui/typed'
 
 const IndexPage: NextPage = () => (
   <LayoutCenter>
