@@ -14,7 +14,7 @@
 
 * storybook
 
-  * cypress.io
+* cypress.io
 
     
 

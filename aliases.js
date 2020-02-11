@@ -3,23 +3,25 @@ const path = require('path')
 const root = path.resolve(__dirname)
 
 const alias = {
-  components: `${root}/components`,
-  common: `${root}/components/common`,
-  hooks: `${root}/hooks`,
-  hoc: `${root}/hoc`,
-  utils: `${root}/utils`,
   'action-creators': `${root}/action-creators`,
   actions: `${root}/actions`,
-  services: `${root}/services`,
-  reducers: `${root}/reducers`,
-  sagas: `${root}/sagas`,
-  store: `${root}/store/store.js`,
-  images: `${root}/static/images`,
-  i18n: `${root}/i18n.js`,
-  locales: `${root}/static/locales`,
-  test: `${root}/__test__`,
+  components: `${root}/components`,
+  common: `${root}/components/common`,
   constants: `${root}/utils/constants`,
   data: `${root}/utils/data`,
+  hoc: `${root}/hoc`,
+  hooks: `${root}/hooks`,
+  i18n: `${root}/i18n.js`,
+  images: `${root}/static/images`,
+  locales: `${root}/static/locales`,
+  public: `${root}/public`,
+  reducers: `${root}/reducers`,
+  sagas: `${root}/sagas`,
+  services: `${root}/services`,
+  store: `${root}/store/store.js`,
+  style: `${root}/style`,
+  test: `${root}/__test__`,
+  utils: `${root}/utils`,
 }
 
 module.exports = alias
