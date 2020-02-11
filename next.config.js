@@ -1,7 +1,8 @@
-// const withFonts = require('next-fonts')
+const withOffline = require('next-offline')
 
-// module.exports = withFonts({
-//   webpack(config, options) {
-//     return config
-//   },
-// })
+
+module.exports = withOffline({
+  webpack(config, options) {
+    return config
+  },
+})
