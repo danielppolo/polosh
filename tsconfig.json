@@ -16,7 +16,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "strict": true
+    "strict": true,
+    "baseUrl": "."
   },
   "exclude": [
     "node_modules"
@@ -24,26 +25,27 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx", "pages/index.tsx"
-  ],
-  "baseUrl": ".",
-  "paths": {
-    "components": ["components"],
-    "common": ["components/common"],
-    "hooks": ["hooks"],
-    "hoc": ["hoc"],
-    "utils": ["utils"],
-    "action-creators": ["action-creators"],
-    "actions": ["actions"],
-    "services": ["services"],
-    "reducers": ["reducers"],
-    "sagas": ["sagas"],
-    "store": ["store/store.js"],
-    "images": ["static/images"],
-    "i18n": ["i18n.js"],
-    "locales": ["static/locales"],
-    "test": ["__test__"],
-    "constants": ["utils/constants"],
-    "data": ["utils/data"],
-  }
+    "**/*.tsx",
+    "pages/index.tsx",
+    "action-creators",
+    "actions",
+    "components",
+    "components/common",
+    "config",
+    "utils/constants",
+    "utils/data",
+    "hoc",
+    "hooks",
+    "i18n.js",
+    "static/images",
+    "static/locales",
+    "public",
+    "reducers",
+    "sagas",
+    "services",
+    "store/store.js",
+    "style",
+    "__test__",
+    "utils"
+  ]
 }

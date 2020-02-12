@@ -13,23 +13,27 @@
 
 
 
-### Nice to try
-
-* CSS Grid
-* Spring.js
-* Three.js
-* Variable fonts
-*  
-
-
-
 ### Requirements
 
 * PWA
+
 * Google Auth
+
 * CMS
 
+  
 
+### Nice to have
+
+* CSS Grid
+
+* Spring.js
+
+* Three.js
+
+* Variable fonts
+
+  
 
 ### Sitemap
 
@@ -58,3 +62,8 @@
 ###### A user can...
 
 * 
+
+
+### sitemap
+
+[Specs](D:\Documentos\creative\polo_sh\01_specs.md)
