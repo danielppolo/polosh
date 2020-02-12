@@ -1,7 +1,11 @@
 import React, { useEffect } from 'react'
+import styled from 'styled-components'
 
 const Reveal = typeof navigator !== 'undefined' ? require('reveal.js') : null
 
+const PresentationStyled = styled.div`
+  font-size: 24px;
+`
 
 const Slides = ({ children }) => {
   useEffect(() => {
@@ -25,11 +29,11 @@ const Slides = ({ children }) => {
     })
   }, [])
   return (
-    <div className="reveal">
+    <PresentationStyled className="reveal">
       <div className="slides">
         {children}
       </div>
-    </div>
+    </PresentationStyled>
   )
 }
 
