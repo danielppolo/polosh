@@ -3,7 +3,6 @@ import themes from 'style/themes'
 import Head from 'next/head'
 import { NextPage } from 'next'
 
-
 const App: NextPage = ({ Component, pageProps }: any) => {
   const theme = themes.light
   return (
