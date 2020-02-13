@@ -9,6 +9,7 @@ const App: NextPage = ({ Component, pageProps }: any) => {
     <>
       <Head>
         <title>d a n i e l . p o l o</title>
+        <link rel="manifest" href="/manifest.json" />
         <meta
           name="viewport"
           content="initial-scale=1.0, width=device-width"
