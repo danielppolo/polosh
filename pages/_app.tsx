@@ -8,8 +8,10 @@ const App: NextPage = ({ Component, pageProps }: any) => {
   return (
     <>
       <Head>
-        <title>d a n i e l . p o l o</title>
+        <title>danielpolo</title>
         <link rel="manifest" href="/manifest.json" />
+        <link rel="shortcut icon" type="image/png" href="/images/favicon-16.png" />
+
         <meta
           name="viewport"
           content="initial-scale=1.0, width=device-width"
