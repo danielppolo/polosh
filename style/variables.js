@@ -7,7 +7,8 @@ const DefaultStyles = createGlobalStyle`
     --secondary: ${({ secondary }) => secondary};
     --black: ${({ black }) => black};
     /* Font */
-    --sans: 'Adapter', sans-serif;
+    --sans: 'TT Runs', sans-serif;
+    
   }
 `
 

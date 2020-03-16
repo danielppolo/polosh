@@ -17,7 +17,7 @@
 
 * PWA
 
-* Google Auth
+* Google Auth via Firebase
 
 * CMS
 
@@ -32,6 +32,8 @@
 * Three.js
 
 * Variable fonts
+
+* 
 
   
 
