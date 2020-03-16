@@ -8,7 +8,8 @@ const DefaultStyles = createGlobalStyle`
     --black: ${({ black }) => black};
     /* Font */
     --sans: 'TT Runs', sans-serif;
-    
+    --mono: 'Space Mono', monospace;
+
   }
 `
 

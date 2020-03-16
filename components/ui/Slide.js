@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Slide = ({ children }) => (
-  <section>
+const Slide = ({ children, markdown }) => (
+  <section data-markdown={markdown}>
     {children}
   </section>
 )
