@@ -1,0 +1,16 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": [ "simple-import-sort"],
+  "rules": {
+    "simple-import-sort/imports": [
+      "warn",
+      {
+        "groups": [
+          ["^react", "^[a-zA-Z_]+"],
+          ["^@?\\w"],
+          ["^\\."]
+        ]
+      }
+    ]
+  }
+}

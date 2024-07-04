@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Patterns from https://www.magicpattern.design/tools/css-backgrounds */
+
+.lines {
+    background-size: 40px 40px;
+    background-image: repeating-linear-gradient(0deg, #00000022, #00000022 1px, transparent 1px, transparent);
+}
+
+.lines-20 {
+    background-size: 20px 20px;
+    background-image: repeating-linear-gradient(0deg, #00000009, #00000009 1px, transparent 1px, transparent);
+}
+
+.polka {
+    background-image: radial-gradient(#00000044 1px, transparent 1px);
+    background-size: 36px 36px;
+}
+
+.polka-ig {
+    background-image: radial-gradient(#00000044 1.5px, transparent 1.5px);
+    background-size: 60px 60px;
+}

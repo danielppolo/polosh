@@ -1,0 +1,22 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx lint-staged
+# check for updated or added images and optimize them
+# images_files_count=`git --no-pager diff --name-only --cached |
+# grep -E "\.(gif|jpg|jpeg|tiff?|png|webp|bmp)$" | wc -l`
+
+# echo "Checking for image files to optimize..."
+# echo "Images to optimize: $images_files_count"
+
+# if [ $images_files_count -gt 0 ]; then
+#   echo "Compressing images..."
+#   yarn images:optimize
+#   # add only the optimized images back to the commit
+#   git add -f $(git --no-pager diff --name-status --cached |
+#   grep -E "\.(gif|jpg|jpeg|tiff?|png|webp|bmp)$" |
+#   grep -v "^D" |
+#   awk '{print $2}')
+#   # add assets.json
+#   git add -f .expo-shared/assets.json
+# fi
